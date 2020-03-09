@@ -54,7 +54,7 @@ class SignUpForm extends Component {
 					component={FormInput}
 				/>
 				<Field
-					className="sign-up-form__confirm-password"
+					className="sign-up-form__confirm"
 					type="password"
 					title="Confirm Password"
 					placeholder="Confirm Password"
@@ -73,7 +73,7 @@ class SignUpForm extends Component {
 				/>
 				<Field
 					className="sign-up-form__back"
-					onClick={() => console.log('tryna go back')}
+					onClick={() => history.push('/signin')}
 					type="button"
 					title="Back"
 					name="back"
