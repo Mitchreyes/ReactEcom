@@ -21,6 +21,8 @@
 		grid-template-rows: [s] 1fr [e];
 		grid-column-gap: 47px;
 
+		font-size: 14px;
+
 		& > * {
 			grid-row: s/e;
 		}
