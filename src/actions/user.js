@@ -6,13 +6,91 @@ export function fetchUserPurchases() {
 		payload: [
 			{
 				_id: 0,
-				title: 'purchase 1',
-				amount: 8.02
+				total: 2.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Tim Reyes',
+					shippingAddress: '1234 West st'
+				}
 			},
 			{
 				_id: 1,
-				title: 'purchase 2',
-				amount: 15.2
+				total: 15.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Mitch Reyes',
+					shippingAddress: '1234 West st'
+				}
+			},
+			{
+				_id: 2,
+				total: 23,
+				orderNumber: 2231391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'John Reyes',
+					shippingAddress: '1233 Eest st'
+				}
+			},
+			{
+				_id: 3,
+				total: 15.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Mitch Reyes',
+					shippingAddress: '1234 West st'
+				}
+			},
+			{
+				_id: 4,
+				total: 15.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Mitch Reyes',
+					shippingAddress: '1234 West st'
+				}
+			},
+			{
+				_id: 5,
+				total: 15.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Mitch Reyes',
+					shippingAddress: '1234 West st'
+				}
+			},
+			{
+				_id: 6,
+				total: 15.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Mitch Reyes',
+					shippingAddress: '1234 West st'
+				}
+			},
+			{
+				_id: 7,
+				total: 15.2,
+				orderNumber: 2931391,
+				orderDate: new Date(),
+				creditCard: '-0000',
+				user: {
+					name: 'Mitch Reyes',
+					shippingAddress: '1234 West st'
+				}
 			}
 		]
 	};
