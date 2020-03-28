@@ -15,7 +15,7 @@ export function fetchUserPurchases() {
 				_id: 0,
 				total: 2.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Tim Reyes',
@@ -26,7 +26,7 @@ export function fetchUserPurchases() {
 				_id: 1,
 				total: 15.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Mitch Reyes',
@@ -37,7 +37,7 @@ export function fetchUserPurchases() {
 				_id: 2,
 				total: 23,
 				orderNumber: 2231391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'John Reyes',
@@ -48,7 +48,7 @@ export function fetchUserPurchases() {
 				_id: 3,
 				total: 15.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Mitch Reyes',
@@ -59,7 +59,7 @@ export function fetchUserPurchases() {
 				_id: 4,
 				total: 15.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Mitch Reyes',
@@ -70,7 +70,7 @@ export function fetchUserPurchases() {
 				_id: 5,
 				total: 15.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Mitch Reyes',
@@ -81,7 +81,7 @@ export function fetchUserPurchases() {
 				_id: 6,
 				total: 15.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Mitch Reyes',
@@ -92,7 +92,7 @@ export function fetchUserPurchases() {
 				_id: 7,
 				total: 15.2,
 				orderNumber: 2931391,
-				orderDate: new Date(),
+				orderDate: new Date().toDateString(),
 				creditCard: '-0000',
 				user: {
 					name: 'Mitch Reyes',
