@@ -20,6 +20,7 @@ import SignUp from './components/auth/signup';
 import Account from './components/account/account';
 import Shop from './components/shop/shop';
 import Icons from './helpers/icons';
+import Review from './components/order/review';
 
 Icons();
 
@@ -34,6 +35,7 @@ function main() {
 						<Route path="/signup" exact component={SignUp} />
 						<Route path="/account" exact component={Account} />
 						<Route path="/shop" exact component={Shop} />
+						<Route path="/order/review" exact component={Review} />
 					</Switch>
 				</Layout>
 			</Router>
