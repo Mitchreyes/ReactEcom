@@ -20,7 +20,7 @@ class Review extends Component {
 		return (
 			<div className="review">
 				<PageTitle className="review__page-title" title="Order Review" />
-				<ReviewForm onSubmit={this.onSubmit} className="review-form" />
+				<ReviewForm onSubmit={this.onSubmit} className="review__form" />
 			</div>
 		);
 	}
