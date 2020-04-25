@@ -67,7 +67,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '2.5',
-				belongsTo: [ 0, 1 ]
+				belongsTo: [ 0, 1 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			},
 			{
 				_id: 1,
@@ -75,7 +76,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '3.2',
-				belongsTo: [ 0, 6 ]
+				belongsTo: [ 0, 6 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			},
 			{
 				_id: 2,
@@ -83,7 +85,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '1.6',
-				belongsTo: [ 0, 1, 2 ]
+				belongsTo: [ 0, 1, 2 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			},
 			{
 				_id: 3,
@@ -91,7 +94,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '2.4',
-				belongsTo: [ 0, 3 ]
+				belongsTo: [ 0, 3 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			},
 			{
 				_id: 4,
@@ -99,7 +103,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '1.20',
-				belongsTo: [ 0, 2 ]
+				belongsTo: [ 0, 2 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			},
 			{
 				_id: 5,
@@ -107,7 +112,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '6',
-				belongsTo: [ 0, 5, 4 ]
+				belongsTo: [ 0, 5, 4 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			},
 			{
 				_id: 6,
@@ -115,7 +121,8 @@ export function fetchShopProducts() {
 				description:
 					'The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start',
 				price: '9.2',
-				belongsTo: [ 0, 6 ]
+				belongsTo: [ 0, 6 ],
+				imageUrl: 'http://via.placeholder.com/80x80'
 			}
 		]
 	};
