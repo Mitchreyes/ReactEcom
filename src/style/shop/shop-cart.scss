@@ -43,6 +43,10 @@
 	display: grid;
 	justify-items: center;
 	align-items: center;
+
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 .cart-content {
@@ -107,6 +111,7 @@
 
 		&:hover {
 			transform: scale(0.97);
+			cursor: pointer;
 		}
 
 		&:active {

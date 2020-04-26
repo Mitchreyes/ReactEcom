@@ -35,11 +35,19 @@
 		&:focus {
 			outline: none;
 		}
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 
 	&__gray-button {
 		background: #999;
 		width: 137px;
+
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
 
@@ -61,6 +69,10 @@
 
 		&:focus {
 			outline: none;
+		}
+
+		&:hover {
+			cursor: pointer;
 		}
 	}
 }
