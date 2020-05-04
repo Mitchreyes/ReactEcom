@@ -4,8 +4,8 @@
 
 	&__form {
 		display: grid;
-		grid-template-rows: [name-s] 64px [name-e] 35px [address-s] 64px [address-e city-s] 64px [city-e state-zip-s]
-			64px [state-zip-e] minmax(20px, 81px) [line-s] 26px [line-e buttons-s] 38px [buttons-e];
+		grid-template-rows: [name-s] 64px [name-e] 35px [address-s] 64px [address-e city-s] 64px [city-e state-s] 64px
+			[state-e] minmax(20px, 81px) [line-s] 26px [line-e buttons-s] 38px [buttons-e];
 		grid-template-columns: [back-s] 137px [back-e space-s] 40px [space-e use-this-address-s] 1fr
 			[use-this-address-e] 1fr;
 		grid-row-gap: 15px;
@@ -22,15 +22,16 @@
 	&__city {
 		grid-row: city-s/city-e;
 	}
-	&__state,
-	&__zipcode {
-		grid-row: state-zip-s/state-zip-e;
-		grid-column: back-s;
+	&__state {
+		grid-row: state-s/state-e;
+		grid-column: back-s/back-e;
 		input {
 			width: 200px;
 		}
 	}
 	&__zipcode {
+		grid-row: state-s/state-e;
+		grid-column: back-s/back-e;
 		transform: translateX(226px);
 	}
 	&__line {
