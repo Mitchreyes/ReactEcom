@@ -20,13 +20,13 @@ class OrderSummary extends Component {
 				<InfoTitle
 					className="order-summary__subtotal"
 					title={`${amtStickers} stickers`}
-					value={`$${subtotal}`}
+					value={`$${subtotal.toFixed(2)}`}
 				/>
 				<InfoTitle className="order-summary__tax-shipping" title="Taxes & Shipping" value={`$${tax}`} />
 				<InfoTitle
 					className="order-summary__total info-title-green"
 					title="Total"
-					value={`$${subtotal + tax}`}
+					value={`$${(subtotal + tax).toFixed(2)}`}
 				/>
 			</div>
 		);

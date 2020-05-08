@@ -3,9 +3,10 @@ import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
 
 import { FormInput, FormButton } from '../formFields';
-import OrderSummary from './orderSummary';
 
 import history from '../../history';
+import OrderSummary from './orderSummary';
+import { UnderlinedTitle } from './infoHelp';
 
 class PaymentForm extends Component {
 	render() {
@@ -24,11 +25,12 @@ class PaymentForm extends Component {
 				<Field
 					className="payment-form__card"
 					type="card"
-					title="Card Card Number"
+					title="Credit Card Number"
 					placeholder="____-____-____-____"
 					name="card"
 					component={FormInput}
 				/>
+
 				<Field
 					className="payment-form__expiration"
 					type="expiration"
@@ -45,6 +47,7 @@ class PaymentForm extends Component {
 					name="ccv"
 					component={FormInput}
 				/>
+
 				<div className="payment-form__line" />
 				<Field
 					className="payment-form__pay-complete"
@@ -64,6 +67,11 @@ class PaymentForm extends Component {
 					component={FormButton}
 				/>
 				<OrderSummary className="payment-form__order-summary" />
+				<div className="payment-form__shipping-info shipping-info">
+					<UnderlinedTitle className="shipping-info__title" title="Shipping To" />
+					<div className="shipping-info__name small-text">Mitchell Reyes</div>
+					<div className="shipping-info__address small-text">1234 address goes here</div>
+				</div>
 			</form>
 		);
 	}
